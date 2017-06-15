@@ -1,3 +1,5 @@
+# Funny Design Code [![Build Status](https://travis-ci.org/fangyishu/design.svg?branch=master)](https://travis-ci.org/fangyishu/design)
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
