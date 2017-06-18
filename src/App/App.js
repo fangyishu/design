@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import { Route, Switch, Link } from "react-router-dom";
 
 import Home from "../Home/Home";
-import Button from "../design/Button/Button";
+import MaterialButtonDesign from "../design/material-button/MaterialButtonDesign";
 import ScrollAppearEffect from "../design/ScrollAppearEffect/ScrollAppearEffect";
 
 class App extends Component {
@@ -26,7 +26,7 @@ class App extends Component {
 
                         <ul className="nav flex-column">
                             <li className="nav-item"><Link className="nav-link" to="/">Home</Link></li>
-                            <li className="nav-item"><Link className="nav-link" to="/design/button">Button</Link></li>
+                            <li className="nav-item"><Link className="nav-link" to="/design/material-button">Material Button</Link></li>
                             <li className="nav-item"><Link className="nav-link" to="/design/scroll-appear">Scroll Appear Effect</Link></li>
                         </ul>
                     </div>
@@ -38,7 +38,7 @@ class App extends Component {
                     }}>
                         <Switch>
                             <Route exact path="/" component={Home} />
-                            <Route path="/design/button" component={Button} />
+                            <Route path="/design/material-button" component={MaterialButtonDesign} />
                             <Route path="/design/scroll-appear" component={ScrollAppearEffect} />
                         </Switch>
                     </div>
