@@ -5,7 +5,8 @@
   "homepage": "https://fangyishu.github.io/design",
   "dependencies": {
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "react-router-dom": "^4.1.1"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
