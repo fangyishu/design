@@ -4,6 +4,7 @@ import { Route, Switch, Link } from "react-router-dom";
 import Home from "../Home/Home";
 import MaterialButtonDesign from "../design/material-button/MaterialButtonDesign";
 import ScrollAppearEffect from "../design/ScrollAppearEffect/ScrollAppearEffect";
+import ThreeDButton from "../design/3d-button/3dButton";
 
 class App extends Component {
     render() {
@@ -27,6 +28,7 @@ class App extends Component {
                         <ul className="nav flex-column">
                             <li className="nav-item"><Link className="nav-link" to="/">Home</Link></li>
                             <li className="nav-item"><Link className="nav-link" to="/design/material-button">Material Button</Link></li>
+                            <li className="nav-item"><Link className="nav-link" to="/design/3d-button">3D Button</Link></li>
                             <li className="nav-item"><Link className="nav-link" to="/design/scroll-appear">Scroll Appear Effect</Link></li>
                         </ul>
                     </div>
@@ -39,6 +41,7 @@ class App extends Component {
                         <Switch>
                             <Route exact path="/" component={Home} />
                             <Route path="/design/material-button" component={MaterialButtonDesign} />
+                            <Route path="/design/3d-button" component={ThreeDButton} />
                             <Route path="/design/scroll-appear" component={ScrollAppearEffect} />
                         </Switch>
                     </div>
