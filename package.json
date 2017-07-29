@@ -2,7 +2,7 @@
   "name": "design",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://fangyishu.github.io/design",
+  "homepage": "http://design.fangyishu.com",
   "dependencies": {
     "bootstrap": "^4.0.0-alpha.6",
     "react": "^15.6.1",
