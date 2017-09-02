@@ -5,8 +5,10 @@
   "homepage": "http://design.fangyishu.com",
   "dependencies": {
     "bootstrap": "^4.0.0-alpha.6",
+    "history": "^4.7.2",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "react-ga": "^2.2.0",
     "react-router-dom": "^4.1.1"
   },
   "devDependencies": {
